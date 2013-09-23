@@ -39,5 +39,3 @@ Oh, and reread your args/kwargs:
 - [SO kwargs](http://stackoverflow.com/questions/1769403/understanding-kwargs-in-python)
 - [SO #3](http://stackoverflow.com/questions/3394835/args-and-kwargs)
 - [Agiliq](http://agiliq.com/blog/2012/06/understanding-args-and-kwargs/)
-- 
-
