@@ -34,5 +34,9 @@ Answer:
 Exam.objects.values('class__name', 'name').order_by('class__name', 'name).annotate(Avg('score'))
 ```
 
+You'll get results for every unique combination of class name and exam name.
+
 Btw, you can change the order of that queryset, i.e. Exam.values().annotate().order_by(), and it'll work, but the order_by() has to be there.
+
+Maybe I should change the title here - Aggregation, Annotation, Aggrevation?  Aggrovation?  Order_By(Alliteration)?  Heh.
 
